@@ -149,7 +149,7 @@ template_variables:
   Cloud Foundry has used two architectures for managing application containers: 
   staged_dea_intro: <a href="../concepts/diego/diego-architecture.html">Diego</a> and Droplet Execution Agents (DEAs). For information about how DEA applications are staged, see the <a href="./architecture/execution-agent.html#staging">Staging Apps with DEAs</a> section of the <a href="./architecture/execution-agent.html">Droplet Execution Agent</a> topic.
   dea_diego_diff_link: <li><a href="./diego/dea-vs-diego.html" class="subnav">Differences Between DEA and Diego Architectures</a></li>
-  vcap_app_host: \### <a id='VCAP-APP-HOST'></a>VCAP\_APP\_HOST <br>The IP address of the host. Deprecated<span>:</span> the DEAs set this to be <code>0.0.0.0</code>, and Diego Cells do not provide this environment variable. <br> <code>VCAP_APP_HOST=0.0.0.0</code>
+  vcap_app_host: ../dea_heading
   dea_instance_ports: On the DEAs, these internal and external values will be the same, but on Diego Cells, they may differ.
   dea_health_check: In the older Droplet Execution Agent (DEA) architecture, <code>cf set-health-check APP_NAME none</code> is unnecessary because <code>no-route</code> causes the DEAs to skip the port health-check on app startup.
   diego_stg: The Diego cell or the Droplet Execution Agent emits STG logs when staging or restaging an app. These actions implement the desired state requested by the user. After the droplet has been uploaded, STG messages end and CELL or DEA messages begin. For STG, the instance index is almost always 0.
