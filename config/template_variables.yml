@@ -153,6 +153,6 @@ template_variables:
   dea_instance_ports: On the DEAs, these internal and external values will be the same, but on Diego Cells, they may differ.
   dea_health_check: In the older Droplet Execution Agent (DEA) architecture, <code>cf set-health-check APP_NAME none</code> is unnecessary because <code>no-route</code> causes the DEAs to skip the port health-check on app startup.
   diego_stg: The Diego cell or the Droplet Execution Agent emits STG logs when staging or restaging an app. These actions implement the desired state requested by the user. After the droplet has been uploaded, STG messages end and CELL or DEA messages begin. For STG, the instance index is almost always 0.
-  logs_dea_section: <a id='dea'></a> \### DEA <br> The Droplet Execution Agent emits DEA logs beginning when it starts or stops the app. These actions implement the desired state requested by the user. The DEA also emits messages when an app crashes. For example<span>:</span> <br> <pre class="terminal">2014-02-13T11:44:52.07-0800 [DEA]     OUT Starting app instance (index 1) with guid e1ca6390-cf78-4fc7-9d86-5b7ed01e9c28</pre>
+  logs_dea_section: ../logs_dea
 
 public_host: docs.cloudfoundry.org
