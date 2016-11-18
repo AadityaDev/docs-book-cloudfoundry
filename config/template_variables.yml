@@ -155,6 +155,6 @@ template_variables:
   cloud_controller_logging: For more information about how Cloud Foundry aggregates and streams logs and metrics, see the <a href="../../loggregator/index.html">Overview of the Loggregator System</a> topic.
   public_host: docs.cloudfoundry.org
   zipkin_enable: <p>To enable Zipkin tracing, add the following property to your BOSH deployment manifest file<span>:</span></p><p><pre>router.tracing.enable_zipkin<span>:</span> true</pre></p>
-  ssl_gorouter_link: <a href="./ssl_termination.html#gorouter_term">Terminating SSL/TLS at the Gorouter only</a>
-  ssl_lb_gorouter_link: <a href="./ssl_termination.html#lb_and_gorouter_term">Terminating SSL/TLS at the Load Balancer and the Gorouter</a>
-  ssl_lb_link: <a href="./ssl_termination.html#lb_term">Terminating SSL/TLS at the Load Balancer Only</a>
+  ssl_gorouter_link: <a href="#gorouter_term">Terminating SSL/TLS at the Gorouter only</a>
+  ssl_lb_gorouter_link: <a href="#lb_and_gorouter_term">Terminating SSL/TLS at the Load Balancer and the Gorouter</a>
+  ssl_lb_link: <a href="#lb_term">Terminating SSL/TLS at the Load Balancer Only</a>
